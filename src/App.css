@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.app_body{
+  margin-left: 95px;
+  padding-top: 5%;
+ display: block;
+  height: 800px;
+  width: 1750px;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button{
+  height: 50px;
+  width: 150px;
+}

@@ -1,0 +1,84 @@
+
+.Cards{
+    display: flex;
+}
+
+
+
+.javacard{
+    margin-left: 50px;
+    height: 320px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in-out;
+}
+.javacard:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.javacard > img{
+    margin-top: -19px;
+    margin-left: 0px;
+    height: 200px;
+    width: 300px;
+}
+.javacard > .btn{
+    margin-top: 11px;
+    padding: 0.5rem;
+    background-color: white;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.javacard > h2{
+    margin-left: 42%;
+}
+
+
+
+.btn button{
+    padding: 0.5rem;
+    background-color: white;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+}
+
+.btn button:hover{
+    background: rgba(27, 156, 252, 0.1);
+    transform: scale(1.1);
+}
+
+.Cards2{
+    display: flex;
+}
+
+.precards{
+    margin-left: 50px;
+    height: 120px;
+    width: 230px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in-out;
+}
+.precards:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.precards > img{
+    height: 200px;
+    width: 300px;
+}
+.precards > button{
+    width: 100px;
+    height: 40px;
+}
+.precards > h2{
+    margin-left: 30%;
+}
